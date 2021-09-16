@@ -58,7 +58,7 @@ def clean2_plate(plate):
         return plate, None
 
 
-img = cv2.imread("/home/user/Downloads/SF90.jpg")
+img = cv2.imread("/home/user/Downloads/Audi RSQ8.jpg")
 print("Number  input image...",)
 cv2.imshow("input", img)
 if cv2.waitKey(0) & 0xff == ord('q'):
